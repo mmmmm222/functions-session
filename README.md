@@ -143,18 +143,18 @@
 
 > Defining a problem in terms of itself.
 
- for example:
-
-    ```C
-        int factorial(int n) {
-            if (n == 0) {
-                return 1;
-            }
-            else {
-                return n * factorial(n-1);
-            }
-        }
-    ```
+for example:
+ 
+  ```C
+     int factorial(int n) {
+         if (n == 0) {
+             return 1;
+         }
+         else {
+             return n * factorial(n-1);
+         }
+     }
+  ```
  
  Let's see how this function works for the input `n = 5` :
  
