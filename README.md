@@ -15,11 +15,9 @@
 
   - The syntax of function can be divided into 3 aspects:
 
-  >  1- Function Declaration
-
-     2- Function Definition
-
-     3- Function Calls
+  >  `1- Function Declaration`
+      `2- Function Definition`
+      `3- Function Calls`
 
 
 - Function Declaration
@@ -188,8 +186,7 @@ for example:
 
 - We can pass arguments to the C function in two ways:
 
->  1- Pass by Value
-   2- Pass by Reference
+>  `1- Pass by Value`     `2- Pass by Reference`
 
 <p>&nbsp;</p>
 
