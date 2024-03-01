@@ -24,7 +24,7 @@
 
 - Function Declaration
 
-<img src = "https://github.com/mmmmm222/functions-session/assets/95083236/6b7123bb-059d-43bb-a7d0-bc6853927e1b" width ="500" height = "500" >
+<img src = "https://github.com/mmmmm222/functions-session/assets/95083236/6b7123bb-059d-43bb-a7d0-bc6853927e1b" width ="500" height = "700" >
 
 
 - Function Definition
