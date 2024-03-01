@@ -13,10 +13,12 @@
 
 - Syntax:
 
- - The syntax of function can be divided into 3 aspects:
+  - The syntax of function can be divided into 3 aspects:
 
   1- Function Declaration
+
   2- Function Definition
+
   3- Function Calls
 
   ```C
