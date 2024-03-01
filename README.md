@@ -256,7 +256,7 @@ According To Address Bus
 
 <p>&nbsp;</p>
 
-1. `Pass by Value`
+* `Pass by Value`
 
 Parameter passing in this method copies values from actual parameters into formal function parameters. As a result, any changes made inside the functions do not reflect in the caller’s parameters. 
 
@@ -286,7 +286,7 @@ return 0;
 ```
 <p>&nbsp;</p>
 
-2. `Pass by Reference`
+* `Pass by Reference`
 
 The caller’s actual parameters and the function’s actual parameters refer to the same locations, so any changes made inside the function are reflected in the caller’s actual parameters. 
 
