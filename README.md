@@ -80,7 +80,6 @@
 
 
     ```
-<p>&nbsp;</p>
 
   - Power Function:
 
