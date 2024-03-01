@@ -116,30 +116,27 @@
 
     ```
 
+    - Factorial Example
 
-<p>&nbsp;</p>
+    ```C
+        #include <stdio.h>
 
-* Factorial Example
+        double factorial(int x);
 
-  ```C
-    #include <stdio.h>
+        void main(void)
+        {
+            int s = factorial(5);
+            printf("%d", s);
+        }
 
-    double factorial(int x);
-
-    void main(void)
-    {
-        int s = factorial(5);
-        printf("%d", s);
-    }
-
-    double factorial(int x)
-    {
-        int f = 1;
-        for (; x > 0; x--)
-            f *= x;
-        return f;
-    }
-  ```
+        double factorial(int x)
+        {
+            int f = 1;
+            for (; x > 0; x--)
+                f *= x;
+            return f;
+        }
+    ```
 <p>&nbsp;</p>
 
 ### Recursion:
