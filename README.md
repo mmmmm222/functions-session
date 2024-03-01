@@ -11,6 +11,7 @@ Table of Contents
 ### Functions
 > A function in C is a block of code that performs a specific task and is used to break down a program into  smaller, reusable pieces. It is defined with a name, a return type, and a set of parameters that specify the  input values.
 
+<p>&nbsp;</p>
 
 - Syntax:
 
@@ -40,20 +41,21 @@ Table of Contents
       }
   ```
 
+<p>&nbsp;</p>
 
 * Factorial
 
 ```C
     #include <stdio.h>
-    
+
     double factorial(int x);
-    
+
     void main(void)
     {
         int s = factorial(5);
         printf("%d", s);
     }
-    
+
     double factorial(int x)
     {
         int f = 1;
@@ -62,6 +64,7 @@ Table of Contents
         return f;
     }
 ```
+<p>&nbsp;</p>
 
 * pointer Size
 
