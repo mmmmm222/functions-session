@@ -4,6 +4,8 @@
 ## Table of Contents
 
 - [Functions](#functions)
+- [Recursion](#Recursion)
+- [passing arguments](#passing-arguments)
 
 
 ### Functions
@@ -184,7 +186,9 @@ for example:
 
 <p>&nbsp;</p>
 
-- We can pass arguments to the C function in two ways:
+### passing arguments
+
+   - We can pass arguments to the C function in two ways:
 
 >  `1- Pass by Value`     `2- Pass by Reference`
 
