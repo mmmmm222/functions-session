@@ -40,6 +40,7 @@
   ```
 
 <p>&nbsp;</p>
+
 - Applications:
 
   - Range Prime Checker Function:
