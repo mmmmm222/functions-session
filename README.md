@@ -116,7 +116,7 @@
 
     ```
 
-  - Factorial Example
+  - Factorial
 
     ```C
         #include <stdio.h>
@@ -166,26 +166,16 @@ Let's see how this function works for the input `n = 5` :
                     = 5 * 4 * 3 * 2 * 1 * 1
                     = 120
 
+
 <p>&nbsp;</p>
-
-* pointer Size
-
-~~~
-According To Address Bus
-(64 bit) or (32 bit)
-~~~
-
-* pass by value vs pass by reference
-
-~~~
-
-~~~
 
 * Register keyword
 
 Register variables in C are those variables that are stored in the CPU register instead of the conventional storage place like RAM. Their scope is local and exists till the end of the block or a function.
 
-~~~
+<p>&nbsp;</p>
+
+~~~C
 #include <stdio.h>
 
 register int var = 22;
@@ -199,7 +189,7 @@ int main()
 // error
 ~~~
 
-~~~
+~~~C
 #include <stdio.h>
 
 int main()
@@ -211,6 +201,8 @@ int main()
 // ok
 ~~~
 
+<p>&nbsp;</p>
+
 * extern Keyword
 ~~~
 - External variables in C can be shared between multiple C files. We can declare an external variable using the extern keyword.
@@ -218,6 +210,7 @@ int main()
 - Their scope is global and they exist between multiple C files.
 ~~~
 
+<p>&nbsp;</p>
 
 * Automatic Variable in C
 ~~~
@@ -226,4 +219,19 @@ All the local variables are automatic variables by default. They are also known 
 Their scope is local and their lifetime is till the end of the block. If we need, we can use the auto keyword to define the auto variables.
 
 The default value of the auto variables is a garbage value.
+~~~
+
+<p>&nbsp;</p>
+
+* pointer Size
+
+~~~
+According To Address Bus
+(64 bit) or (32 bit)
+~~~
+
+* pass by value vs pass by reference
+
+~~~
+
 ~~~
