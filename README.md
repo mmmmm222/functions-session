@@ -254,6 +254,7 @@ According To Address Bus
 
 2- Pass by Reference
 
+<p>&nbsp;</p>
 
 1. `Pass by Value`
 
@@ -283,6 +284,7 @@ return 0;
 }
 
 ```
+<p>&nbsp;</p>
 
 2. `Pass by Reference`
 
