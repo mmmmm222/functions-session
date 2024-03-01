@@ -45,7 +45,7 @@ Table of Contents
 
 * Factorial
 
-```C
+  ```C
     #include <stdio.h>
 
     double factorial(int x);
@@ -63,7 +63,7 @@ Table of Contents
             f *= x;
         return f;
     }
-```
+  ```
 <p>&nbsp;</p>
 
 * pointer Size
