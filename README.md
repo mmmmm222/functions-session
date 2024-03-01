@@ -116,7 +116,7 @@
 
     ```
 
-    - Factorial Example
+  - Factorial Example
 
     ```C
         #include <stdio.h>
