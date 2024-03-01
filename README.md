@@ -183,70 +183,8 @@ for example:
                      = 120
 
 
-<p>&nbsp;</p>
-
-* Register keyword
-
-Register variables in C are those variables that are stored in the CPU register instead of the conventional storage place like RAM. Their scope is local and exists till the end of the block or a function.
 
 <p>&nbsp;</p>
-
-~~~C
-#include <stdio.h>
-
-register int var = 22;
-
-int main()
-{
-    printf("Value of Register Variable: %d\n", var);
-    return 0;
-}
-
-// error
-~~~
-
-~~~C
-#include <stdio.h>
-
-int main()
-{
-    register int var = 22;
-    printf("Value of Register Variable: %d\n", var);
-    return 0;
-}
-// ok
-~~~
-
-<p>&nbsp;</p>
-
-* extern Keyword
-~~~
-- External variables in C can be shared between multiple C files. We can declare an external variable using the extern keyword.
-
-- Their scope is global and they exist between multiple C files.
-~~~
-
-<p>&nbsp;</p>
-
-* Automatic Variable in C
-~~~
-All the local variables are automatic variables by default. They are also known as auto variables.
-
-Their scope is local and their lifetime is till the end of the block. If we need, we can use the auto keyword to define the auto variables.
-
-The default value of the auto variables is a garbage value.
-~~~
-
-<p>&nbsp;</p>
-
-* pointer Size
-
-<p>&nbsp;</p>
-
-~~~
-According To Address Bus
-(64 bit) or (32 bit)
-~~~
 
 - We can pass arguments to the C function in two ways:
 
@@ -273,7 +211,6 @@ var1 = var2;
 var2 = temp;
 }
 
-// Driver code
 int main()
 {
 int var1 = 3, var2 = 2;
@@ -303,7 +240,6 @@ int temp = *var1;
 *var2 = temp;
 }
 
-// Driver code
 int main()
 {
 int var1 = 3, var2 = 2;
