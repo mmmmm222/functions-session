@@ -40,8 +40,86 @@
   ```
 
 <p>&nbsp;</p>
+- Applications:
 
-* Factorial
+  - Range Prime Checker Function:
+
+    prototype :
+
+          bool isPrime(int);
+
+    body :
+
+    ```C
+        bool isPrime(int x){
+            if(x < 2)
+                return false;
+            for(int i = 2;i < x;i++){
+                if(x % i == 0)
+                    return false;
+            }
+            return true;
+        }
+    ```
+
+    usage:
+
+    ```C
+
+        // Calculate The number of primes in Range from Left to Right
+
+        int left,right;
+        scanf("%d%d",&left,&right);
+        int primeNumbers = 0;
+        for(int i = left;i <= right;i++){
+            if(isPrime(i))
+                primeNumbers++;
+        }
+        printf("The number of Primes in Range [%d : %d] = %d",left,right,primeNumbers);
+
+
+    ```
+<p>&nbsp;</p>
+
+  - Power Function:
+
+    prototype :
+
+          int power(int,int);
+
+    body :
+
+    ```C
+        int power(int b,int p){
+            int result = 1;
+            while(p--){
+                result *= b;
+            }
+            return result;
+        }
+    ```
+
+    usage:
+
+    ```C
+
+        // Evaluate This Function (F) for any value of (x)
+        // F(x) = 11 * (x ^ 4) - 3 * (x ^ 3) + 12 * x  - 25
+
+        int x;
+        scanf("%d",&x);
+
+        int result = 11 * power(x,4) - 3 * power(x,3) + 12 * x - 25;
+
+        printf("F(%d) = %d",x,result);
+
+
+    ```
+
+
+<p>&nbsp;</p>
+
+* Factorial Example
 
   ```C
     #include <stdio.h>
