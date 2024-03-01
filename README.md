@@ -189,7 +189,6 @@ for example:
 - We can pass arguments to the C function in two ways:
 
 >  1- Pass by Value
-
    2- Pass by Reference
 
 <p>&nbsp;</p>
