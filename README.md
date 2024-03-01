@@ -1,5 +1,11 @@
 # functions-session
 
+### Functions
+ A function in C is a block of code that performs a specific task and is used to break down a program into  smaller, reusable pieces. It is defined with a name, a return type, and a set of parameters that specify the  input values.
+
+
+
+
 * Factorial
 
 ~~~
