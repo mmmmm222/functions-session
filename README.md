@@ -80,6 +80,7 @@
 
 
     ```
+<p>&nbsp;</p>
 
   - Power Function:
 
@@ -115,6 +116,7 @@
 
 
     ```
+<p>&nbsp;</p>
 
   - Factorial
 
