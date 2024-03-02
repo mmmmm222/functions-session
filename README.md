@@ -9,10 +9,17 @@
 
 <p>&nbsp;</p>
 
+
+
 ### Functions
 > A function in C is a block of code that performs a specific task and is used to break down a program into  smaller, reusable pieces. It is defined with a name, a return type, and a set of parameters that specify the  input values.
 
 <p>&nbsp;</p>
+
+- start with the example
+
+<p>&nbsp;</p>
+
 
 - Syntax:
 
@@ -58,6 +65,10 @@
 
 <p>&nbsp;</p>
 
+- solve from `1` to `7`
+
+<p>&nbsp;</p>
+
 - Applications:
 
   - Range Prime Checker Function:
@@ -98,7 +109,7 @@
 
     ```
 
-  - Power Function:
+  - Power Function: => Think how to do it in 5 minutes
 
     prototype :
 
@@ -156,6 +167,9 @@
     ```
 <p>&nbsp;</p>
 
+- solve `7` `8` `9`
+
+
 ### Recursion:
 
 > Defining a problem in terms of itself.
@@ -184,6 +198,10 @@ for example:
                      = 120
 
 
+
+<p>&nbsp;</p>
+
+- solve `10`
 
 <p>&nbsp;</p>
 
