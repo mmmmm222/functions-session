@@ -1,9 +1,25 @@
 ## Examples
 
 ```C
+// assume we need to make a code that adds two numbers
+
 #include <stdio.h>
 
-void sum(void);
+void main(void)
+{
+    int num1, num2, sum;
+    scanf("%d %d", &num1, &num2);
+    sum = num1 + num2;
+    printf("sum is %d\n", sum);
+}
+
+
+```
+
+```C
+#include <stdio.h>
+
+void add(void);
 
 void main(void)
 {
@@ -246,6 +262,7 @@ function()
     a = 250;
 }
 ```
+
 ## recersion
 
 `10`
@@ -282,6 +299,7 @@ int sumdig(int n)
 
 ## calling
 
+`11`
 ```C
 #include <stdio.h>
 void fun(int x)
@@ -299,7 +317,7 @@ int main()
 
 ```
 
-
+`12`
 ```C
 #include <stdio.h>
 void fun(int *ptr)
@@ -317,6 +335,7 @@ int main()
 }
 ```
 
+`13`
 ```C
 #include <stdio.h>
 #include <stdlib.h>
@@ -339,6 +358,7 @@ void swap(int *a, int *b)
 }
 
 ```
+`14`
 
 ```C
 #include <stdio.h>
@@ -363,6 +383,7 @@ void swap(int a, int b)
 
 ```
 
+`15`
 
 ```C
 #include <stdio.h>
@@ -385,12 +406,4 @@ void swap(int a, int b)
     a = b;
     b = temp;
 }
-```
-
-
-```C
-
-```
-```C
-
 ```
