@@ -278,3 +278,119 @@ int sumdig(int n)
 
 
 ```
+
+
+## calling
+
+```C
+#include <stdio.h>
+void fun(int x)
+{
+    x = 30;
+}
+int main()
+{
+    int y = 20;
+    fun(y);
+    printf("%d", y);
+
+    return 0;
+}
+
+```
+
+
+```C
+#include <stdio.h>
+void fun(int *ptr)
+{
+
+    *ptr = 30;
+}
+
+int main()
+{
+    int y = 20;
+    fun(&y);
+    printf("%d", y);
+    return 0;
+}
+```
+
+```C
+#include <stdio.h>
+#include <stdlib.h>
+
+void swap(int *a, int *b);
+int main()
+{
+    int a, b;
+    a = 10, b = 15;
+    swap(&a, &b);
+    printf("%d %d", a, b);
+    return 0;
+}
+
+void swap(int *a, int *b)
+{
+    int temp = *a;
+    *a = *b;
+    *b = temp;
+}
+
+```
+
+```C
+#include <stdio.h>
+#include <stdlib.h>
+
+void swap(int a, int b);
+int main()
+{
+    int a, b;
+    a = 10, b = 15;
+    swap(a, b);
+    printf("%d %d", a, b);
+    return 0;
+}
+
+void swap(int a, int b)
+{
+    int temp = a;
+    a = b;
+    b = temp;
+}
+
+```
+
+
+```C
+#include <stdio.h>
+#include <stdlib.h>
+
+void swap(int a, int b);
+int a, b;
+int main()
+{
+
+    a = 10, b = 15;
+    swap(a, b);
+    printf("%d %d", a, b);
+    return 0;
+}
+
+void swap(int a, int b)
+{
+    int temp = a;
+    a = b;
+    b = temp;
+}
+```
+
+
+```C
+
+```
+```C
+
+```
