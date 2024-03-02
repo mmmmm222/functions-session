@@ -1,3 +1,5 @@
+## Examples
+
 ```C
 #include <stdio.h>
 
@@ -181,5 +183,98 @@ void fun()
 {
     printf("Help");
 }
+
+```
+
+`7`
+
+```C
+
+#include <stdio.h>
+
+int fun(int i)
+{
+    i++;
+    return i;
+}
+
+int main()
+{
+    int fun(int);
+    int i = 3;
+    fun(i = fun(fun(i)));
+    printf("%d\n", i);
+    return 0;
+}
+
+```
+`8`
+
+```C
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int i = 0;
+    i++;
+    if (i <= 5)
+        printf("Luminous");
+    exit(1);
+    main();
+    return 0;
+}
+```
+
+`9` `ask all of them`
+
+```C
+#include <stdio.h>
+function();
+
+main()
+{
+    int i = 5;
+    i = function();
+    printf("%d", i);
+    return 0;
+}
+
+function()
+{
+    int a;
+    a = 250;
+}
+```
+## recersion
+
+`10`
+
+```C
+#include <stdio.h>
+int sumdig(int);
+int main()
+{
+    int a, b;
+    a = sumdig(123);
+    b = sumdig(321);
+    printf("%d, %d\n", a, b);
+    return 0;
+}
+
+int sumdig(int n)
+{
+    int s = 0, d = 0;
+    if (n != 0)
+    {
+        d = n % 10;
+        n = n / 10;
+        s = d + sumdig(n);
+    }
+    else
+        return 0;
+    return s;
+}
+
 
 ```
