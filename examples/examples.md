@@ -75,6 +75,7 @@ void main(void)
 int add(int num1, int num2)
 {
     int sum = num1 + num2;
+    return sum;
 }
 
 ```
@@ -263,7 +264,7 @@ function()
 }
 ```
 
-## recersion
+## recursion
 
 `10`
 
