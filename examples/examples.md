@@ -62,7 +62,7 @@ void add(int num1, int num2)
 ```C
 #include <stdio.h>
 
-int add(int num1, int num2);
+int add(int num1, int num2); 
 
 void main(void)
 {
